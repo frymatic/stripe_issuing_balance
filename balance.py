@@ -1,6 +1,7 @@
 # Calculation of Stripe Issuing Cardholder Account Balance
-# Brazen Studios
 # ℳ° ƒrymatic
+# Brazen Studios
+ 
 
 import stripe
 from live_keys import *
