@@ -3,7 +3,7 @@
 # Brazen Studios
 
 import stripe
-from live_keys import *
+from live_keys import * # separate file with public key, secret key, and test cardholder
 
 # get all transactions based on ARG ID
 # retrieve transactions until all are gotten
