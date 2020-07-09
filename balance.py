@@ -1,7 +1,6 @@
 # Calculation of Stripe Issuing Cardholder Account Balance
 # ℳ° ƒrymatic
 # Brazen Studios
- 
 
 import stripe
 from live_keys import *
@@ -28,10 +27,8 @@ tx = stripe.issuing.Transaction.list(limit = 1)
 # loop through transactions until there are no more, sum up all the transactions a we go
 while tx.has_more:
 
-
 	spend += amount
 
-	
 	# pull chunk of transactions
 	tx = stripe.issuing.Transaction.list(
 			limit = 100, 
